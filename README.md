@@ -1,12 +1,11 @@
-# Website-TI-1D
-Membuat Sistem Informasi Kelas menggunakan Bootstrap 
-
+# Web-Kelas-TI-1D
 Tugas Workshop Web Dasar, membuat Design Web menggunakan Bootstrap
 
-Kelompok 1
-==========
-A'fiyyah Salsabila Nazhalta
-Febri Fannisa
-Muhammad Rafli AuliaMe
-Muhammad Rizki
-Rachel Ardana Putra Ginting
+
+Anggota :
+1. A'fiyyah Salsabila Nazhalta
+2. Febri Fannisa
+3. Muhammad Rafli Aulia
+4. Muhammad Rizki
+5. Rachel Ardana Putra Gintin
+
