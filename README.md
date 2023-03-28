@@ -7,4 +7,5 @@ Anggota :
 2. Febri Fannisa
 3. Muhammad Rafli Aulia
 4. Muhammad Rizki
-5. Rachel Ardana Putra Ginting
+5. Rachel Ardana Putra Gintin
+
