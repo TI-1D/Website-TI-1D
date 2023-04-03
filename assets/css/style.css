@@ -1,3 +1,44 @@
 body {
     font-family: 'Work Sans', sans-serif;
 }
+
+
+.btn.btn-primary {
+    background-color: linear-gradient(-45deg, #3f00b5, #9f69fe, #27c8b7, #3f00b5) !important;
+    background-size: 800% 400% !important;
+    padding: 0.7em 1.4em !important;
+    display: inline-block !important;
+    border: none !important;
+    border-radius: 10px !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    color: #fff !important;
+    transition: all .5s ease-in-out;
+    animation: gradient 10s infinite cubic-bezier(.62, .28, .23, .99) both !important;
+}
+
+.btn.btn-primary:hover {
+    animation: gradient 3s infinite !important;
+    transform: scale(1.05) !important;
+    color: #fff !important;
+}
+
+.btn.btn-primary:active {
+    animation: gradient 3s infinite !important;
+    transform: scale(0.4) !important;
+    color: #fff !important;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
