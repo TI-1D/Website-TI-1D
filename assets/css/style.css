@@ -42,3 +42,13 @@ body {
         background-position: 0% 50%;
     }
 }
+
+.kelas {
+    font-size: 65px;
+    font-weight: bold;
+}
+
+.welcome {
+    font-size: 28px;
+    font-weight: 100 !important;
+}
