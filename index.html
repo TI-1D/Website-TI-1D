@@ -31,8 +31,8 @@
                     aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <div class="collapse z-3 position-absolute navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 m border-0 shadow-smb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link" href="#">Home</a>
                     </li>
@@ -68,82 +68,118 @@
     <!--team-->
     <selection id="team" class="team selection-padding">
         <div class="container">
-            <div class="row">
-                <div class="col-md-12">
+            <div class="row mt-5">
+                <div class="col-md-12 mt-5">
                     <div class="section-header text-center pb-5">
-                        <br><br><br><br>
-                        <h2>Anggota Kelas</h2>
+                        <p class="fw-semibold mb-0 text-violet-600">Member of Class</p>
+                        <h2 class="fw-bold">Anggota Kelas</h2>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-3 mb-4">
-                    <div class="card text-center" style="height: 320px">
+                    <div class="card text-center border-0 shadow-sm rounded-md" style="height:360px">
                         <div class="card-body">
-                            <img src="https://i.pravatar.cc/500" alt="" height="50%" width="50%"
-                                 class="img-fluid rounded-circle">
-                            <h5 class="card-title py-2">A'fiyyah Salsabillah Nhazalta</h5>
-                            <p class="card-text">2022573010003</p>
-                            <p class="card-text">Lhokseumawe</p>
-                            <p class="socials">
-                                <i class="bi bi-twitter"></i>
-                                <i class="bi bi-instagram"></i>
-                                <i class="bi bi-facebook"></i>
-                                <i class="bi bi-whatsapp"></i>
-                            </p>
+                            <img src="https://us.123rf.com/450wm/regara/regara2007/regara200700137/153083642-gray-avatar-picture-profil-icon-design-vector.jpg?ver=6"
+                                 alt="" height="100%" width="100%" class="img-fluid rounded">
+                            <button class="btn border-0" type="button" data-bs-toggle="collapse" data-bs-target="#1"
+                                    aria-expanded="false" aria-controls="1">
+                                <h6 class="card-title fw-medium pt-3">A'fiyyah Salsabillah Nhazalta</h6>
+                                <span class="badge text-bg-primary">Bendahara</span>
+                            </button>
+                            <div class="collapse z-3 position-absolute" id="1">
+                                <div class="card card-body border-0 shadow-sm">
+                                    <p class="card-text fs-6 py-0 text-muted">2022573010003</p>
+                                    <p class="card-text fs-6 text-muted">Lhokseumawe</p>
+                                    <p class="socials d-flex justify-content-evenly mt-5">
+                                        <i class="bi bi-twitter"></i>
+                                        <i class="bi bi-instagram"></i>
+                                        <i class="bi bi-facebook"></i>
+                                        <i class="bi bi-whatsapp"></i>
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3 mb-4">
-                    <div class="card text-center" style="height: 320px">
+                    <div class="card text-center border-0 shadow-sm rounded-md" style="height:360px">
                         <div class="card-body">
-                            <img src="https://i.pravatar.cc/500" alt="" height="50%" width="50%"
-                                 class="img-fluid rounded-circle">
-                            <h5 class="card-title py-2">Agung Ramadhan Setiawan</h5>
-                            <p class="card-text">2022573010081</p>
-                            <p class="card-text">Pangkalan Susu</p>
-                            <p class="socials">
-                                <i class="bi bi-twitter"></i>
-                                <i class="bi bi-instagram"></i>
-                                <i class="bi bi-facebook"></i>
-                                <i class="bi bi-whatsapp"></i>
-                            </p>
+                            <img src="https://us.123rf.com/450wm/regara/regara2007/regara200700137/153083642-gray-avatar-picture-profil-icon-design-vector.jpg?ver=6"
+                                 alt="" height="100%" width="100%" class="img-fluid rounded">
+                            <button class="btn border-0" type="button" data-bs-toggle="collapse" data-bs-target="#2"
+                                    aria-expanded="false" aria-controls="2">
+                                <h6 class="card-title fw-medium pt-3">Agung Ramadhan Setiawan</h6>
+                                <span class="badge text-bg-secondary">Anggota</span>
+                            </button>
+                            <div class="collapse z-3 position-absolute" id="2">
+                                <div class="card card-body border-0 shadow-sm">
+                                    <p class="card-text fs-6 py-0 text-muted">2022573010081</p>
+                                    <p class="card-text fs-6 text-muted">Pangkalan Susu</p>
+                                    <p class="socials d-flex justify-content-evenly mt-5">
+                                        <i class="bi bi-twitter"></i>
+                                        <i class="bi bi-instagram"></i>
+                                        <i class="bi bi-facebook"></i>
+                                        <i class="bi bi-whatsapp"></i>
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3 mb-4">
-                    <div class="card text-center" style="height: 320px">
+                    <div class="card text-center border-0 shadow-sm rounded-md" style="height:360px">
                         <div class="card-body">
-                            <img src="https://i.pravatar.cc/500" alt="" height="50%" width="50%"
-                                 class="img-fluid rounded-circle">
-                            <h5 class="card-title py-2">Andrian Fakhruza</h5>
-                            <p class="card-text">2022573010060</p>
-                            <p class="card-text">Lhokseumawe</p>
-                            <p class="card-text">25 September 2004</p>
-                            <p class="socials">
-                                <i class="bi bi-twitter"></i>
-                                <i class="bi bi-instagram"></i>
-                                <i class="bi bi-facebook"></i>
-                                <i class="bi bi-whatsapp"></i>
+                            <img src="https://us.123rf.com/450wm/regara/regara2007/regara200700137/153083642-gray-avatar-picture-profil-icon-design-vector.jpg?ver=6"
+                                 alt="" height="100%" width="100%" class="img-fluid rounded">
+                            <p>
+
+                                <button class="btn border-0" type="button" data-bs-toggle="collapse" data-bs-target="#3"
+                                        aria-expanded="false" aria-controls="3">
+                                    <h6 class="card-title fw-medium pt-3">Andrian Fakhruza</h6>
+                                    <span class="badge text-bg-secondary">Anggota</span>
+                                </button>
                             </p>
+                            <div class="collapse z-3 position-absolute" id="3">
+                                <div class="card card-body border-0 shadow-sm">
+                                    <p class="card-text fs-6 py-0 text-muted">2022573010060</p>
+                                    <p class="card-text fs-6 text-muted">Lhokseumawe</p>
+                                    <p class="socials d-flex justify-content-evenly mt-5">
+                                        <i class="bi bi-twitter"></i>
+                                        <i class="bi bi-instagram"></i>
+                                        <i class="bi bi-facebook"></i>
+                                        <i class="bi bi-whatsapp"></i>
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3 mb-4">
-                    <div class="card text-center" style="height: 320px">
+                    <div class="card text-center border-0 shadow-sm rounded-md" style="height:360px">
                         <div class="card-body">
-                            <img src="https://i.pravatar.cc/500" alt="" height="50%" width="50%"
-                                 class="img-fluid rounded-circle">
-                            <h5 class="card-title py-2">Aura Syaskia</h5>
-                            <p class="card-text">2022573010005</p>
-                            <p class="card-text">Lhokseumawe</p>
-                            <p class="card-text">16 Februari 2004</p>
-                            <p class="socials">
-                                <i class="bi bi-twitter"></i>
-                                <i class="bi bi-instagram"></i>
-                                <i class="bi bi-facebook"></i>
-                                <i class="bi bi-whatsapp"></i>
+                            <img src="https://us.123rf.com/450wm/regara/regara2007/regara200700137/153083642-gray-avatar-picture-profil-icon-design-vector.jpg?ver=6"
+                                 alt="" height="100%" width="100%" class="img-fluid rounded">
+                            <p>
+
+                                <button class="btn border-0" type="button" data-bs-toggle="collapse" data-bs-target="#4"
+                                        aria-expanded="false" aria-controls="4">
+                                    <h6 class="card-title fw-medium pt-3">Aura Syaskia</h6>
+                                    <span class="badge text-bg-secondary">Anggota</span>
+                                </button>
                             </p>
+                            <div class="collapse z-3 position-absolute" id="4">
+                                <div class="card card-body border-0 shadow-sm">
+                                    <p class="card-text fs-6 py-0 text-muted">2022573010005</p>
+                                    <p class="card-text fs-6 text-muted">Lhokseumawe</p>
+                                    <p class="socials d-flex justify-content-evenly mt-5">
+                                        <i class="bi bi-twitter"></i>
+                                        <i class="bi bi-instagram"></i>
+                                        <i class="bi bi-facebook"></i>
+                                        <i class="bi bi-whatsapp"></i>
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -155,74 +191,115 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-md-6 col-lg-3 mb-4">
-                        <div class="card text-center" style="height: 320px">
+                        <div class="card text-center border-0 shadow-sm rounded-md" style="height:360px">
                             <div class="card-body">
-                                <img src="https://i.pravatar.cc/500" alt="" height="50%" width="50%"
-                                     class="img-fluid rounded-circle">
-                                <h5 class="card-title py-2">Cut Siti Sarah Azkiani</h5>
-                                <p class="card-text">2022573010007</p>
-                                <p class="card-text">Lhokseumawe</p>
-                                <p class="card-text">06 April 2004</p>
-                                <p class="socials">
-                                    <i class="bi bi-twitter"></i>
-                                    <i class="bi bi-instagram"></i>
-                                    <i class="bi bi-facebook"></i>
-                                    <i class="bi bi-whatsapp"></i>
+                                <img src="https://us.123rf.com/450wm/regara/regara2007/regara200700137/153083642-gray-avatar-picture-profil-icon-design-vector.jpg?ver=6"
+                                     alt="" height="100%" width="100%" class="img-fluid rounded">
+                                <p>
+
+                                    <button class="btn border-0" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#5" aria-expanded="false" aria-controls="5">
+                                        <h6 class="card-title fw-medium pt-3">Cut Siti Sarah Azkiani</h6>
+                                        <span class="badge text-bg-secondary">Anggota</span>
+                                    </button>
                                 </p>
+                                <div class="collapse z-3 position-absolute" id="5">
+                                    <div class="card card-body border-0 shadow-sm">
+
+                                        <p class="card-text fs-6 py-0 text-muted">2022573010007</p>
+                                        <p class="card-text fs-6 text-muted">Lhokseumawe</p>
+                                        <p class="socials d-flex justify-content-evenly mt-5">
+                                            <i class="bi bi-twitter"></i>
+                                            <i class="bi bi-instagram"></i>
+                                            <i class="bi bi-facebook"></i>
+                                            <i class="bi bi-whatsapp"></i>
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-3 mb-4">
-                        <div class="card text-center" style="height: 320px">
+                        <div class="card text-center border-0 shadow-sm rounded-md" style="height:360px">
                             <div class="card-body">
-                                <img src="https://i.pravatar.cc/500" alt="" height="50%" width="50%"
-                                     class="img-fluid rounded-circle">
-                                <h5 class="card-title py-2">Dimas Kurniawan</h5>
-                                <p class="card-text">2022573010009</p>
-                                <p class="card-text">Lhokseumawe</p>
-                                <p class="card-text">20 November 2004</p>
-                                <p class="socials">
-                                    <i class="bi bi-twitter"></i>
-                                    <i class="bi bi-instagram"></i>
-                                    <i class="bi bi-facebook"></i>
-                                    <i class="bi bi-whatsapp"></i>
+                                <img src="https://us.123rf.com/450wm/regara/regara2007/regara200700137/153083642-gray-avatar-picture-profil-icon-design-vector.jpg?ver=6"
+                                     alt="" height="100%" width="100%" class="img-fluid rounded">
+                                <p>
+
+                                    <button class="btn border-0" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#6" aria-expanded="false" aria-controls="6">
+                                        <h6 class="card-title fw-medium pt-3">Dimas Kurniawan</h6>
+                                        <span class="badge text-bg-secondary">Anggota</span>
+                                    </button>
                                 </p>
+                                <div class="collapse z-3 position-absolute" id="6">
+                                    <div class="card card-body border-0 shadow-sm">
+                                        <p class="card-text fs-6 py-0 text-muted">2022573010009</p>
+                                        <p class="card-text fs-6 text-muted">Lhokseumawe</p>
+                                        <p class="socials d-flex justify-content-evenly mt-5">
+                                            <i class="bi bi-twitter"></i>
+                                            <i class="bi bi-instagram"></i>
+                                            <i class="bi bi-facebook"></i>
+                                            <i class="bi bi-whatsapp"></i>
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-3 mb-4">
-                        <div class="card text-center" style="height: 320px">
+                        <div class="card text-center border-0 shadow-sm rounded-md" style="height:360px">
                             <div class="card-body">
-                                <img src="https://i.pravatar.cc/500" alt="" height="50%" width="50%"
-                                     class="img-fluid rounded-circle">
-                                <h5 class="card-title py-2">Fachrul Rozi Rangkuti</h5>
-                                <p class="card-text">2022573010011</p>
-                                <p class="card-text">Lhokseumawe</p>
-                                <p class="card-text">11 Januari 2004</p>
-                                <p class="socials">
-                                    <i class="bi bi-twitter"></i>
-                                    <i class="bi bi-instagram"></i>
-                                    <i class="bi bi-facebook"></i>
-                                    <i class="bi bi-whatsapp"></i>
+                                <img src="https://us.123rf.com/450wm/regara/regara2007/regara200700137/153083642-gray-avatar-picture-profil-icon-design-vector.jpg?ver=6"
+                                     alt="" height="100%" width="100%" class="img-fluid rounded">
+                                <p>
+
+                                    <button class="btn border-0" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#7" aria-expanded="false" aria-controls="7">
+                                        <h6 class="card-title fw-medium pt-3">Fachrul Rozi Rangkuti</h6>
+                                        <span class="badge text-bg-secondary">Anggota</span>
+                                    </button>
                                 </p>
+                                <div class="collapse z-3 position-absolute" id="7">
+                                    <div class="card card-body border-0 shadow-sm">
+                                        <p class="card-text fs-6 py-0 text-muted">2022573010011</p>
+                                        <p class="card-text fs-6 text-muted">Lhokseumawe</p>
+                                        <p class="socials d-flex justify-content-evenly mt-5">
+                                            <i class="bi bi-twitter"></i>
+                                            <i class="bi bi-instagram"></i>
+                                            <i class="bi bi-facebook"></i>
+                                            <i class="bi bi-whatsapp"></i>
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-3 mb-4">
-                        <div class="card text-center" style="height: 320px">
+                        <div class="card text-center border-0 shadow-sm rounded-md" style="height:360px">
                             <div class="card-body">
-                                <img src="https://i.pravatar.cc/500" alt="" height="50%" width="50%"
-                                     class="img-fluid rounded-circle">
-                                <h5 class="card-title py-2">Febri Fanisa</h5>
-                                <p class="card-text">2022573010090</p>
-                                <p class="card-text">Bireuen</p>
-                                <p class="card-text">14 Februari 2004</p>
-                                <p class="socials">
-                                    <i class="bi bi-twitter"></i>
-                                    <i class="bi bi-instagram"></i>
-                                    <i class="bi bi-facebook"></i>
-                                    <i class="bi bi-whatsapp"></i>
+                                <img src="https://us.123rf.com/450wm/regara/regara2007/regara200700137/153083642-gray-avatar-picture-profil-icon-design-vector.jpg?ver=6"
+                                     alt="" height="100%" width="100%" class="img-fluid rounded">
+                                <p>
+
+                                    <button class="btn border-0" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#8" aria-expanded="false" aria-controls="8">
+                                        <h6 class="card-title fw-medium pt-3">Febri Fanisa</h6>
+                                        <span class="badge text-bg-secondary">Anggota</span>
+                                    </button>
                                 </p>
+                                <div class="collapse z-3 position-absolute" id="8">
+                                    <div class="card card-body border-0 shadow-sm">
+                                        <p class="card-text fs-6 py-0 text-muted">2022573010090</p>
+                                        <p class="card-text fs-6 text-muted">Bireuen</p>
+                                        <p class="socials d-flex justify-content-evenly mt-5">
+                                            <i class="bi bi-twitter"></i>
+                                            <i class="bi bi-instagram"></i>
+                                            <i class="bi bi-facebook"></i>
+                                            <i class="bi bi-whatsapp"></i>
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -234,74 +311,114 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-12 col-md-6 col-lg-3 mb-4">
-                            <div class="card text-center" style="height: 320px">
+                            <div class="card text-center border-0 shadow-sm rounded-md" style="height:360px">
                                 <div class="card-body">
-                                    <img src="https://i.pravatar.cc/500" alt="" height="50%" width="50%"
-                                         class="img-fluid rounded-circle">
-                                    <h5 class="card-title py-2">Jabal Akbar</h5>
-                                    <p class="card-text">2022573010065</p>
-                                    <p class="card-text">Kota Medan</p>
-                                    <p class="card-text">04 Juli 2004</p>
-                                    <p class="socials">
-                                        <i class="bi bi-twitter"></i>
-                                        <i class="bi bi-instagram"></i>
-                                        <i class="bi bi-facebook"></i>
-                                        <i class="bi bi-whatsapp"></i>
+                                    <img src="https://us.123rf.com/450wm/regara/regara2007/regara200700137/153083642-gray-avatar-picture-profil-icon-design-vector.jpg?ver=6"
+                                         alt="" height="100%" width="100%" class="img-fluid rounded">
+                                    <p>
+
+                                        <button class="btn border-0" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#9" aria-expanded="false" aria-controls="9">
+                                            <h6 class="card-title fw-medium pt-3">Jabal Akbar</h6>
+                                            <span class="badge text-bg-secondary">Anggota</span>
+                                        </button>
+                                    </p>
+                                    <div class="collapse z-3 position-absolute" id="9">
+                                        <div class="card card-body border-0 shadow-sm">
+                                            <p class="card-text fs-6 py-0 text-muted">2022573010065</p>
+                                            <p class="card-text fs-6 text-muted">Kota Medan</p>
+                                            <p class="socials d-flex justify-content-evenly mt-5">
+                                                <i class="bi bi-twitter"></i>
+                                                <i class="bi bi-instagram"></i>
+                                                <i class="bi bi-facebook"></i>
+                                                <i class="bi bi-whatsapp"></i>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3 mb-4">
+                            <div class="card text-center border-0 shadow-sm rounded-md" style="height:360px">
+                                <div class="card-body">
+                                    <img src="https://us.123rf.com/450wm/regara/regara2007/regara200700137/153083642-gray-avatar-picture-profil-icon-design-vector.jpg?ver=6"
+                                         alt="" height="100%" width="100%" class="img-fluid rounded">
+                                    <p>
+
+                                        <button class="btn border-0" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#10" aria-expanded="false" aria-controls="10">
+                                            <h6 class="card-title fw-medium pt-3">M Akbar Zulfikar</h6>
+                                            <span class="badge text-bg-warning text-white">Warning</span>
+                                        </button>
+                                    </p>
+                                    <div class="collapse z-3 position-absolute" id="10">
+                                        <div class="card card-body border-0 shadow-sm">
+                                            <p class="card-text fs-6 py-0 text-muted">2022573010093</p>
+                                            <p class="card-text fs-6 text-muted">Kota Langsa</p>
+                                            <p class="socials d-flex justify-content-evenly mt-5">
+                                                <i class="bi bi-twitter"></i>
+                                                <i class="bi bi-instagram"></i>
+                                                <i class="bi bi-facebook"></i>
+                                                <i class="bi bi-whatsapp"></i>
+                                        </div>
+                                    </div>
                                     </p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12 col-md-6 col-lg-3 mb-4">
-                            <div class="card text-center" style="height: 320px">
+                            <div class="card text-center border-0 shadow-sm rounded-md" style="height:360px">
                                 <div class="card-body">
-                                    <img src="https://i.pravatar.cc/500" alt="" height="50%" width="50%"
-                                         class="img-fluid rounded-circle">
-                                    <h5 class="card-title py-2">M Akbar Zulfikar</h5>
-                                    <p class="card-text">2022573010093</p>
-                                    <p class="card-text">Kota Langsa</p>
-                                    <p class="card-text">01 November 2002</p>
-                                    <p class="socials">
-                                        <i class="bi bi-twitter"></i>
-                                        <i class="bi bi-instagram"></i>
-                                        <i class="bi bi-facebook"></i>
-                                        <i class="bi bi-whatsapp"></i>
+                                    <img src="https://us.123rf.com/450wm/regara/regara2007/regara200700137/153083642-gray-avatar-picture-profil-icon-design-vector.jpg?ver=6"
+                                         alt="" height="100%" width="100%" class="img-fluid rounded">
+                                    <p>
+
+                                        <button class="btn border-0" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#11" aria-expanded="false" aria-controls="11">
+                                            <h6 class="card-title fw-medium pt-3">Muhammad Abil</h6>
+                                            <span class="badge text-bg-secondary">Anggota</span>
+                                        </button>
                                     </p>
+                                    <div class="collapse z-3 position-absolute" id="11">
+                                        <div class="card card-body border-0 shadow-sm">
+                                            <p class="card-text fs-6 py-0 text-muted">2022573010067</p>
+                                            <p class="card-text fs-6 text-muted">Lhokseumawe</p>
+                                            <p class="socials d-flex justify-content-evenly mt-5">
+                                                <i class="bi bi-twitter"></i>
+                                                <i class="bi bi-instagram"></i>
+                                                <i class="bi bi-facebook"></i>
+                                                <i class="bi bi-whatsapp"></i>
+                                            </p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12 col-md-6 col-lg-3 mb-4">
-                            <div class="card text-center" style="height: 320px">
+                            <div class="card text-center border-0 shadow-sm rounded-md" style="height:360px">
                                 <div class="card-body">
-                                    <img src="https://i.pravatar.cc/500" alt="" height="50%" width="50%"
-                                         class="img-fluid rounded-circle">
-                                    <h5 class="card-title py-2">Muhammad Abil</h5>
-                                    <p class="card-text">2022573010067</p>
-                                    <p class="card-text">Lhokseumawe</p>
-                                    <p class="card-text">30 April 2004</p>
-                                    <p class="socials">
-                                        <i class="bi bi-twitter"></i>
-                                        <i class="bi bi-instagram"></i>
-                                        <i class="bi bi-facebook"></i>
-                                        <i class="bi bi-whatsapp"></i>
+                                    <img src="https://us.123rf.com/450wm/regara/regara2007/regara200700137/153083642-gray-avatar-picture-profil-icon-design-vector.jpg?ver=6"
+                                         alt="" height="100%" width="100%" class="img-fluid rounded">
+                                    <p>
+
+                                        <button class="btn border-0" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#12" aria-expanded="false" aria-controls="12">
+                                            <h6 class="card-title fw-medium pt-3">Muhammad Alfitrah</h6>
+                                            <span class="badge text-bg-secondary">Anggota</span>
+                                        </button>
                                     </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-6 col-lg-3 mb-4">
-                            <div class="card text-center" style="height: 320px">
-                                <div class="card-body">
-                                    <img src="https://i.pravatar.cc/500" alt="" height="50%" width="50%"
-                                         class="img-fluid rounded-circle">
-                                    <h5 class="card-title py-2">Muhammad Alfitrah</h5>
-                                    <p class="card-text">2022573010020</p>
-                                    <p class="card-text">Lhokseumawe</p>
-                                    <p class="card-text">12 November 2004</p>
-                                    <p class="socials">
-                                        <i class="bi bi-twitter"></i>
-                                        <i class="bi bi-instagram"></i>
-                                        <i class="bi bi-facebook"></i>
-                                        <i class="bi bi-whatsapp"></i>
-                                    </p>
+                                    <div class="collapse z-3 position-absolute" id="12">
+                                        <div class="card card-body border-0 shadow-sm">
+                                            <p class="card-text fs-6 py-0 text-muted">2022573010020</p>
+                                            <p class="card-text fs-6 text-muted">Lhokseumawe</p>
+                                            <p class="socials d-flex justify-content-evenly mt-5">
+                                                <i class="bi bi-twitter"></i>
+                                                <i class="bi bi-instagram"></i>
+                                                <i class="bi bi-facebook"></i>
+                                                <i class="bi bi-whatsapp"></i>
+                                            </p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -313,74 +430,114 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-12 col-md-6 col-lg-3 mb-4">
-                                <div class="card text-center" style="height: 320px">
+                                <div class="card text-center border-0 shadow-sm rounded-md" style="height:360px">
                                     <div class="card-body">
-                                        <img src="https://i.pravatar.cc/500" alt="" height="50%" width="50%"
-                                             class="img-fluid rounded-circle">
-                                        <h5 class="card-title py-2">Muhammad Fadhilla</h5>
-                                        <p class="card-text">2022573010097</p>
-                                        <p class="card-text">Julok Rayeuk</p>
-                                        <p class="card-text">26 Januari 2003</p>
-                                        <p class="socials">
-                                            <i class="bi bi-twitter"></i>
-                                            <i class="bi bi-instagram"></i>
-                                            <i class="bi bi-facebook"></i>
-                                            <i class="bi bi-whatsapp"></i>
+                                        <img src="https://us.123rf.com/450wm/regara/regara2007/regara200700137/153083642-gray-avatar-picture-profil-icon-design-vector.jpg?ver=6"
+                                             alt="" height="100%" width="100%" class="img-fluid rounded">
+                                        <p>
+
+                                            <button class="btn border-0" type="button" data-bs-toggle="collapse"
+                                                    data-bs-target="#13" aria-expanded="false" aria-controls="13">
+                                                <h6 class="card-title fw-medium pt-3">Muhammad Fadhilla</h6>
+                                                <span class="badge text-bg-secondary">Anggota</span>
+                                            </button>
                                         </p>
+                                        <div class="collapse z-3 position-absolute" id="13">
+                                            <div class="card card-body border-0 shadow-sm">
+                                                <p class="card-text fs-6 py-0 text-muted">2022573010097</p>
+                                                <p class="card-text fs-6 text-muted">Julok Rayeuk</p>
+                                                <p class="socials d-flex justify-content-evenly mt-5">
+                                                    <i class="bi bi-twitter"></i>
+                                                    <i class="bi bi-instagram"></i>
+                                                    <i class="bi bi-facebook"></i>
+                                                    <i class="bi bi-whatsapp"></i>
+                                                </p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-12 col-md-6 col-lg-3 mb-4">
-                                <div class="card text-center" style="height: 320px">
+                                <div class="card text-center border-0 shadow-sm rounded-md" style="height:360px">
                                     <div class="card-body">
-                                        <img src="https://i.pravatar.cc/500" alt="" height="50%" width="50%"
-                                             class="img-fluid rounded-circle">
-                                        <h5 class="card-title py-2">Muhammad Maulana</h5>
-                                        <p class="card-text">2022573010100</p>
-                                        <p class="card-text">Kota Medan</p>
-                                        <p class="card-text">16 Oktober 2003</p>
-                                        <p class="socials">
-                                            <i class="bi bi-twitter"></i>
-                                            <i class="bi bi-instagram"></i>
-                                            <i class="bi bi-facebook"></i>
-                                            <i class="bi bi-whatsapp"></i>
+                                        <img src="https://us.123rf.com/450wm/regara/regara2007/regara200700137/153083642-gray-avatar-picture-profil-icon-design-vector.jpg?ver=6"
+                                             alt="" height="100%" width="100%" class="img-fluid rounded">
+                                        <p>
+
+                                            <button class="btn border-0" type="button" data-bs-toggle="collapse"
+                                                    data-bs-target="#14" aria-expanded="false" aria-controls="14">
+                                                <h6 class="card-title fw-medium pt-3">Muhammad Maulana</h6>
+                                                <span class="badge text-bg-secondary">Anggota</span>
+                                            </button>
                                         </p>
+                                        <div class="collapse z-3 position-absolute" id="14">
+                                            <div class="card card-body border-0 shadow-sm">
+                                                <p class="card-text fs-6 py-0 text-muted">2022573010100</p>
+                                                <p class="card-text fs-6 text-muted">Kota Medan</p>
+                                                <p class="socials d-flex justify-content-evenly mt-5">
+                                                    <i class="bi bi-twitter"></i>
+                                                    <i class="bi bi-instagram"></i>
+                                                    <i class="bi bi-facebook"></i>
+                                                    <i class="bi bi-whatsapp"></i>
+                                                </p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-12 col-md-6 col-lg-3 mb-4">
-                                <div class="card text-center" style="height: 320px">
+                                <div class="card text-center border-0 shadow-sm rounded-md" style="height:360px">
                                     <div class="card-body">
-                                        <img src="https://i.pravatar.cc/500" alt="" height="50%" width="50%"
-                                             class="img-fluid rounded-circle">
-                                        <h5 class="card-title py-2">Muhammad Rafli Aulia</h5>
-                                        <p class="card-text">2022573010069</p>
-                                        <p class="card-text">Kota Langsa</p>
-                                        <p class="card-text">20 September 2002</p>
-                                        <p class="socials">
-                                            <i class="bi bi-twitter"></i>
-                                            <i class="bi bi-instagram"></i>
-                                            <i class="bi bi-facebook"></i>
-                                            <i class="bi bi-whatsapp"></i>
+                                        <img src="https://us.123rf.com/450wm/regara/regara2007/regara200700137/153083642-gray-avatar-picture-profil-icon-design-vector.jpg?ver=6"
+                                             alt="" height="100%" width="100%" class="img-fluid rounded">
+                                        <p>
+
+                                            <button class="btn border-0" type="button" data-bs-toggle="collapse"
+                                                    data-bs-target="#15" aria-expanded="false" aria-controls="15">
+                                                <h6 class="card-title fw-medium pt-3">Muhammad Rafli Aulia</h6>
+                                                <span class="badge text-bg-secondary">Anggota</span>
+                                            </button>
                                         </p>
+                                        <div class="collapse z-3 position-absolute" id="15">
+                                            <div class="card card-body border-0 shadow-sm">
+                                                <p class="card-text fs-6 py-0 text-muted">2022573010069</p>
+                                                <p class="card-text fs-6 text-muted">Kota Langsa</p>
+                                                <p class="socials d-flex justify-content-evenly mt-5">
+                                                    <i class="bi bi-twitter"></i>
+                                                    <i class="bi bi-instagram"></i>
+                                                    <i class="bi bi-facebook"></i>
+                                                    <i class="bi bi-whatsapp"></i>
+                                                </p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-12 col-md-6 col-lg-3 mb-4">
-                                <div class="card text-center" style="height: 320px">
+                                <div class="card text-center border-0 shadow-sm rounded-md" style="height:360px">
                                     <div class="card-body">
-                                        <img src="https://i.pravatar.cc/500" alt="" height="50%" width="50%"
-                                             class="img-fluid rounded-circle">
-                                        <h5 class="card-title py-2">Muhammad Rizki</h5>
-                                        <p class="card-text">2022573010023</p>
-                                        <p class="card-text">Bireuen</p>
-                                        <p class="card-text">13 Maret 2004</p>
-                                        <p class="socials">
-                                            <i class="bi bi-twitter"></i>
-                                            <i class="bi bi-instagram"></i>
-                                            <i class="bi bi-facebook"></i>
-                                            <i class="bi bi-whatsapp"></i>
+                                        <img src="https://us.123rf.com/450wm/regara/regara2007/regara200700137/153083642-gray-avatar-picture-profil-icon-design-vector.jpg?ver=6"
+                                             alt="" height="100%" width="100%" class="img-fluid rounded">
+                                        <p>
+
+                                            <button class="btn border-0" type="button" data-bs-toggle="collapse"
+                                                    data-bs-target="#16" aria-expanded="false" aria-controls="16">
+                                                <h6 class="card-title fw-medium pt-3">Muhammad Rizki</h6>
+                                                <span class="badge text-bg-secondary">Anggota</span>
+                                            </button>
                                         </p>
+                                        <div class="collapse z-3 position-absolute" id="16">
+                                            <div class="card card-body border-0 shadow-sm">
+                                                <p class="card-text fs-6 py-0 text-muted">2022573010023</p>
+                                                <p class="card-text fs-6 text-muted">Bireuen</p>
+                                                <p class="socials d-flex justify-content-evenly mt-5">
+                                                    <i class="bi bi-twitter"></i>
+                                                    <i class="bi bi-instagram"></i>
+                                                    <i class="bi bi-facebook"></i>
+                                                    <i class="bi bi-whatsapp"></i>
+                                                </p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -392,74 +549,116 @@
                         <div class="container">
                             <div class="row">
                                 <div class="col-12 col-md-6 col-lg-3 mb-4">
-                                    <div class="card text-center" style="height: 320px">
+                                    <div class="card text-center border-0 shadow-sm rounded-md" style="height:360px">
                                         <div class="card-body">
-                                            <img src="https://i.pravatar.cc/500" alt="" height="50%" width="50%"
-                                                 class="img-fluid rounded-circle">
-                                            <h5 class="card-title py-2">Mulyani</h5>
-                                            <p class="card-text">2022573010026</p>
-                                            <p class="card-text">Kuta Binjei</p>
-                                            <p class="card-text">01 Juli 2004</p>
-                                            <p class="socials">
-                                                <i class="bi bi-twitter"></i>
-                                                <i class="bi bi-instagram"></i>
-                                                <i class="bi bi-facebook"></i>
-                                                <i class="bi bi-whatsapp"></i>
+                                            <img src="https://us.123rf.com/450wm/regara/regara2007/regara200700137/153083642-gray-avatar-picture-profil-icon-design-vector.jpg?ver=6"
+                                                 alt="" height="100%" width="100%" class="img-fluid rounded">
+                                            <p>
+
+                                                <button class="btn border-0" type="button" data-bs-toggle="collapse"
+                                                        data-bs-target="#17" aria-expanded="false" aria-controls="17">
+                                                    <h6 class="card-title fw-medium pt-3">Mulyani</h6>
+                                                    <span class="badge text-bg-secondary">Anggota</span>
+                                                </button>
                                             </p>
+                                            <div class="collapse z-3 position-absolute" id="17">
+                                                <div class="card card-body border-0 shadow-sm">
+                                                    <p class="card-text fs-6 py-0 text-muted">2022573010026</p>
+                                                    <p class="card-text fs-6 text-muted">Kuta Binjei</p>
+                                                    <p class="socials d-flex justify-content-evenly mt-5">
+                                                        <i class="bi bi-twitter"></i>
+                                                        <i class="bi bi-instagram"></i>
+                                                        <i class="bi bi-facebook"></i>
+                                                        <i class="bi bi-whatsapp"></i>
+                                                    </p>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-12 col-md-6 col-lg-3 mb-4">
-                                    <div class="card text-center" style="height: 320px">
+                                    <div class="card text-center border-0 shadow-sm rounded-md" style="height:360px">
                                         <div class="card-body">
-                                            <img src="https://i.pravatar.cc/500" alt="" height="50%" width="50%"
-                                                 class="img-fluid rounded-circle">
-                                            <h5 class="card-title py-2">Naomi Natalie BR Sembiring</h5>
-                                            <p class="card-text">2022573010029</p>
-                                            <p class="card-text">Kota Medan</p>
-                                            <p class="card-text">04 Desember 2002</p>
-                                            <p class="socials">
-                                                <i class="bi bi-twitter"></i>
-                                                <i class="bi bi-instagram"></i>
-                                                <i class="bi bi-facebook"></i>
-                                                <i class="bi bi-whatsapp"></i>
+                                            <img src="https://us.123rf.com/450wm/regara/regara2007/regara200700137/153083642-gray-avatar-picture-profil-icon-design-vector.jpg?ver=6"
+                                                 alt="" height="100%" width="100%" class="img-fluid rounded">
+                                            <p>
+
+                                                <button class="btn border-0" type="button" data-bs-toggle="collapse"
+                                                        data-bs-target="#18" aria-expanded="false" aria-controls="18">
+                                                    <h6 class="card-title fw-medium pt-3">Naomi Natalie BR Sembiring
+                                                    </h6>
+                                                    <span class="badge text-bg-secondary">Anggota</span>
+                                                </button>
                                             </p>
+                                            <div class="collapse z-3 position-absolute" id="18">
+                                                <div class="card card-body border-0 shadow-sm">
+                                                    <p class="card-text fs-6 py-0 text-muted">2022573010029</p>
+                                                    <p class="card-text fs-6 text-muted">Kota Medan</p>
+                                                    <p class="socials d-flex justify-content-evenly mt-5">
+                                                        <i class="bi bi-twitter"></i>
+                                                        <i class="bi bi-instagram"></i>
+                                                        <i class="bi bi-facebook"></i>
+                                                        <i class="bi bi-whatsapp"></i>
+                                                    </p>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-12 col-md-6 col-lg-3 mb-4">
-                                    <div class="card text-center" style="height: 320px">
+                                    <div class="card text-center border-0 shadow-sm rounded-md" style="height:360px">
                                         <div class="card-body">
-                                            <img src="https://i.pravatar.cc/500" alt="" height="50%" width="50%"
-                                                 class="img-fluid rounded-circle">
-                                            <h5 class="card-title py-2">Nia Ramadhani</h5>
-                                            <p class="card-text">2022573010107</p>
-                                            <p class="card-text">Bireuen</p>
-                                            <p class="card-text">05 November 2004</p>
-                                            <p class="socials">
-                                                <i class="bi bi-twitter"></i>
-                                                <i class="bi bi-instagram"></i>
-                                                <i class="bi bi-facebook"></i>
-                                                <i class="bi bi-whatsapp"></i>
+                                            <img src="https://us.123rf.com/450wm/regara/regara2007/regara200700137/153083642-gray-avatar-picture-profil-icon-design-vector.jpg?ver=6"
+                                                 alt="" height="100%" width="100%" class="img-fluid rounded">
+                                            <p>
+
+                                                <button class="btn border-0" type="button" data-bs-toggle="collapse"
+                                                        data-bs-target="#19" aria-expanded="false" aria-controls="19">
+
+                                                    <h6 class="card-title fw-medium pt-3">Nia Ramadhani</h6>
+                                                    <span class="badge text-bg-secondary">Anggota</span>
+                                                </button>
                                             </p>
+                                            <div class="collapse z-3 position-absolute" id="19">
+                                                <div class="card card-body border-0 shadow-sm">
+                                                    <p class="card-text fs-6 py-0 text-muted">2022573010107</p>
+                                                    <p class="card-text fs-6 text-muted">Bireuen</p>
+                                                    <p class="socials d-flex justify-content-evenly mt-5">
+                                                        <i class="bi bi-twitter"></i>
+                                                        <i class="bi bi-instagram"></i>
+                                                        <i class="bi bi-facebook"></i>
+                                                        <i class="bi bi-whatsapp"></i>
+                                                    </p>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-12 col-md-6 col-lg-3 mb-4">
-                                    <div class="card text-center" style="height: 320px">
+                                    <div class="card text-center border-0 shadow-sm rounded-md" style="height:360px">
                                         <div class="card-body">
-                                            <img src="https://i.pravatar.cc/500" alt="" height="50%" width="50%"
-                                                 class="img-fluid rounded-circle">
-                                            <h5 class="card-title py-2">Nora Syuhada</h5>
-                                            <p class="card-text">2022573010035</p>
-                                            <p class="card-text">Lhokseumawe</p>
-                                            <p class="card-text">28 Januari 2005</p>
-                                            <p class="socials">
-                                                <i class="bi bi-twitter"></i>
-                                                <i class="bi bi-instagram"></i>
-                                                <i class="bi bi-facebook"></i>
-                                                <i class="bi bi-whatsapp"></i>
+                                            <img src="https://us.123rf.com/450wm/regara/regara2007/regara200700137/153083642-gray-avatar-picture-profil-icon-design-vector.jpg?ver=6"
+                                                 alt="" height="100%" width="100%" class="img-fluid rounded">
+                                            <p>
+
+                                                <button class="btn border-0" type="button" data-bs-toggle="collapse"
+                                                        data-bs-target="#20" aria-expanded="false" aria-controls="20">
+                                                    <h6 class="card-title fw-medium pt-3">Nora Syuhada</h6>
+                                                    <span class="badge text-bg-secondary">Anggota</span>
+                                                </button>
                                             </p>
+                                            <div class="collapse z-3 position-absolute" id="20">
+                                                <div class="card card-body border-0 shadow-sm">
+                                                    <p class="card-text fs-6 py-0 text-muted">2022573010035</p>
+                                                    <p class="card-text fs-6 text-muted">Lhokseumawe</p>
+                                                    <p class="socials d-flex justify-content-evenly mt-5">
+                                                        <i class="bi bi-twitter"></i>
+                                                        <i class="bi bi-instagram"></i>
+                                                        <i class="bi bi-facebook"></i>
+                                                        <i class="bi bi-whatsapp"></i>
+                                                    </p>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -471,74 +670,123 @@
                             <div class="container">
                                 <div class="row">
                                     <div class="col-12 col-md-6 col-lg-3 mb-4">
-                                        <div class="card text-center" style="height: 320px">
+                                        <div class="card text-center border-0 shadow-sm rounded-md"
+                                             style="height:360px">
                                             <div class="card-body">
-                                                <img src="https://i.pravatar.cc/500" alt="" height="50%" width="50%"
-                                                     class="img-fluid rounded-circle">
-                                                <h5 class="card-title py-2">Nurul Afiqah Simbolon</h5>
-                                                <p class="card-text">2022573010073</p>
-                                                <p class="card-text">Kota Medan</p>
-                                                <p class="card-text">28 Mei 2005</p>
-                                                <p class="socials">
-                                                    <i class="bi bi-twitter"></i>
-                                                    <i class="bi bi-instagram"></i>
-                                                    <i class="bi bi-facebook"></i>
-                                                    <i class="bi bi-whatsapp"></i>
+                                                <img src="https://us.123rf.com/450wm/regara/regara2007/regara200700137/153083642-gray-avatar-picture-profil-icon-design-vector.jpg?ver=6"
+                                                     alt="" height="100%" width="100%" class="img-fluid rounded">
+                                                <p>
+
+                                                    <button class="btn border-0" type="button" data-bs-toggle="collapse"
+                                                            data-bs-target="#21" aria-expanded="false"
+                                                            aria-controls="21">
+                                                        <h6 class="card-title fw-medium pt-3">Nurul Afiqah Simbolon</h6>
+                                                        <span class="badge text-bg-secondary">Anggota</span>
+                                                    </button>
                                                 </p>
+                                                <div class="collapse z-3 position-absolute" id="21">
+                                                    <div class="card card-body border-0 shadow-sm">
+                                                        <p class="card-text fs-6 py-0 text-muted">2022573010073</p>
+                                                        <p class="card-text fs-6 text-muted">Kota Medan</p>
+                                                        <p class="socials d-flex justify-content-evenly mt-5">
+                                                            <i class="bi bi-twitter"></i>
+                                                            <i class="bi bi-instagram"></i>
+                                                            <i class="bi bi-facebook"></i>
+                                                            <i class="bi bi-whatsapp"></i>
+                                                        </p>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-12 col-md-6 col-lg-3 mb-4">
-                                        <div class="card text-center" style="height: 320px">
+                                        <div class="card text-center border-0 shadow-sm rounded-md"
+                                             style="height:360px">
                                             <div class="card-body">
-                                                <img src="https://i.pravatar.cc/500" alt="" height="50%" width="50%"
-                                                     class="img-fluid rounded-circle">
-                                                <h5 class="card-title py-2">Nurul Agustina</h5>
-                                                <p class="card-text">2022573010037</p>
-                                                <p class="card-text">Kota Medan</p>
-                                                <p class="card-text">17 Agustus 2004</p>
-                                                <p class="socials">
-                                                    <i class="bi bi-twitter"></i>
-                                                    <i class="bi bi-instagram"></i>
-                                                    <i class="bi bi-facebook"></i>
-                                                    <i class="bi bi-whatsapp"></i>
+                                                <img src="https://us.123rf.com/450wm/regara/regara2007/regara200700137/153083642-gray-avatar-picture-profil-icon-design-vector.jpg?ver=6"
+                                                     alt="" height="100%" width="100%" class="img-fluid rounded">
+                                                <p>
+
+                                                    <button class="btn border-0" type="button" data-bs-toggle="collapse"
+                                                            data-bs-target="#22" aria-expanded="false"
+                                                            aria-controls="22">
+                                                        <h6 class="card-title fw-medium pt-3">Nurul Agustina</h6>
+                                                        <span class="badge text-bg-secondary">Anggota</span>
+                                                    </button>
                                                 </p>
+                                                <div class="collapse z-3 position-absolute" id="22">
+                                                    <div class="card card-body border-0 shadow-sm">
+                                                        <p class="card-text fs-6 py-0 text-muted">2022573010037</p>
+                                                        <p class="card-text fs-6 text-muted">Kota Medan</p>
+                                                        <p class="socials d-flex justify-content-evenly mt-5">
+                                                            <i class="bi bi-twitter"></i>
+                                                            <i class="bi bi-instagram"></i>
+                                                            <i class="bi bi-facebook"></i>
+                                                            <i class="bi bi-whatsapp"></i>
+                                                        </p>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-12 col-md-6 col-lg-3 mb-4">
-                                        <div class="card text-center" style="height: 320px">
+                                        <div class="card text-center border-0 shadow-sm rounded-md"
+                                             style="height:360px">
                                             <div class="card-body">
-                                                <img src="https://i.pravatar.cc/500" alt="" height="50%" width="50%"
-                                                     class="img-fluid rounded-circle">
-                                                <h5 class="card-title py-2">Rachel Ardana Putra Ginting</h5>
-                                                <p class="card-text">2022573010111</p>
-                                                <p class="card-text">Pulau Tiga</p>
-                                                <p class="card-text">20 Februari 2004</p>
-                                                <p class="socials">
-                                                    <i class="bi bi-twitter"></i>
-                                                    <i class="bi bi-instagram"></i>
-                                                    <i class="bi bi-facebook"></i>
-                                                    <i class="bi bi-whatsapp"></i>
+                                                <img src="https://us.123rf.com/450wm/regara/regara2007/regara200700137/153083642-gray-avatar-picture-profil-icon-design-vector.jpg?ver=6"
+                                                     alt="" height="100%" width="100%" class="img-fluid rounded">
+                                                <p>
+
+                                                    <button class="btn border-0" type="button" data-bs-toggle="collapse"
+                                                            data-bs-target="#23" aria-expanded="false"
+                                                            aria-controls="23">
+                                                        <h6 class="card-title fw-medium pt-3">Rachel Ardana Putra
+                                                            Ginting</h6>
+                                                        <span class="badge text-bg-success">Komisaris</span>
+                                                    </button>
                                                 </p>
+                                                <div class="collapse z-3 position-absolute" id="23">
+                                                    <div class="card card-body border-0 shadow-sm">
+                                                        <p class="card-text fs-6 py-0 text-muted">2022573010111</p>
+                                                        <p class="card-text fs-6 text-muted">Pulau Tiga</p>
+                                                        <p class="socials d-flex justify-content-evenly mt-5">
+                                                            <i class="bi bi-twitter"></i>
+                                                            <i class="bi bi-instagram"></i>
+                                                            <i class="bi bi-facebook"></i>
+                                                            <i class="bi bi-whatsapp"></i>
+                                                        </p>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-12 col-md-6 col-lg-3 mb-4">
-                                        <div class="card text-center" style="height: 320px">
+                                        <div class="card text-center border-0 shadow-sm rounded-md"
+                                             style="height:360px">
                                             <div class="card-body">
-                                                <img src="https://i.pravatar.cc/500" alt="" height="50%" width="50%"
-                                                     class="img-fluid rounded-circle">
-                                                <h5 class="card-title py-2">Reyhan Putra Syahmi</h5>
-                                                <p class="card-text">2022573010114</p>
-                                                <p class="card-text">Padang</p>
-                                                <p class="card-text">10 Oktober 2003</p>
-                                                <p class="socials">
-                                                    <i class="bi bi-twitter"></i>
-                                                    <i class="bi bi-instagram"></i>
-                                                    <i class="bi bi-facebook"></i>
-                                                    <i class="bi bi-whatsapp"></i>
+                                                <img src="https://us.123rf.com/450wm/regara/regara2007/regara200700137/153083642-gray-avatar-picture-profil-icon-design-vector.jpg?ver=6"
+                                                     alt="" height="100%" width="100%" class="img-fluid rounded">
+                                                <p>
+
+                                                    <button class="btn border-0" type="button" data-bs-toggle="collapse"
+                                                            data-bs-target="#24" aria-expanded="false"
+                                                            aria-controls="24">
+                                                        <h6 class="card-title fw-medium pt-3">Reyhan Putra Syahmi</h6>
+                                                        <span class="badge text-bg-secondary">Anggota</span>
+                                                    </button>
                                                 </p>
+                                                <div class="collapse z-3 position-absolute" id="24">
+                                                    <div class="card card-body border-0 shadow-sm">
+                                                        <p class="card-text fs-6 py-0 text-muted">2022573010114</p>
+                                                        <p class="card-text fs-6 text-muted">Padang</p>
+                                                        <p class="socials d-flex justify-content-evenly mt-5">
+                                                            <i class="bi bi-twitter"></i>
+                                                            <i class="bi bi-instagram"></i>
+                                                            <i class="bi bi-facebook"></i>
+                                                            <i class="bi bi-whatsapp"></i>
+                                                        </p>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -550,74 +798,122 @@
                                 <div class="container">
                                     <div class="row">
                                         <div class="col-12 col-md-6 col-lg-3 mb-4">
-                                            <div class="card text-center" style="height: 320px">
+                                            <div class="card text-center border-0 shadow-sm rounded-md"
+                                                 style="height:360px">
                                                 <div class="card-body">
-                                                    <img src="https://i.pravatar.cc/500" alt="" height="50%" width="50%"
-                                                         class="img-fluid rounded-circle">
-                                                    <h5 class="card-title py-2">Safira Dara Sholehah</h5>
-                                                    <p class="card-text">2022573010041</p>
-                                                    <p class="card-text">Lhokseumawe</p>
-                                                    <p class="card-text">29 Januari 2004</p>
-                                                    <p class="socials">
-                                                        <i class="bi bi-twitter"></i>
-                                                        <i class="bi bi-instagram"></i>
-                                                        <i class="bi bi-facebook"></i>
-                                                        <i class="bi bi-whatsapp"></i>
+                                                    <img src="https://us.123rf.com/450wm/regara/regara2007/regara200700137/153083642-gray-avatar-picture-profil-icon-design-vector.jpg?ver=6"
+                                                         alt="" height="100%" width="100%" class="img-fluid rounded">
+                                                    <p>
+                                                        <button class="btn border-0" type="button"
+                                                                data-bs-toggle="collapse" data-bs-target="#25"
+                                                                aria-expanded="false" aria-controls="25">
+                                                            <h6 class="card-t6tle fw-medium py-3">Safira Dara Sholehah
+                                                            </h6>
+                                                            <span class="badge text-bg-secondary">Anggota</span>
+                                                        </button>
                                                     </p>
+                                                    <div class="collapse z-3 position-absolute" id="25">
+                                                        <div class="card card-body border-0 shadow-sm">
+                                                            <p class="card-text fs-6 text-muted"> 02022573010041</p>
+                                                            <p class="card-text fs-6 text-muted">Lhokseumawe</p>
+                                                            <p class="socials d-flex justify-content-evenly mt-5">
+                                                                <i class="bi bi-twitter"></i>
+                                                                <i class="bi bi-instagram"></i>
+                                                                <i class="bi bi-facebook"></i>
+                                                                <i class="bi bi-whatsapp"></i>
+                                                            </p>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-12 col-md-6 col-lg-3 mb-4">
-                                            <div class="card text-center" style="height: 320px">
+                                            <div class="card text-center border-0 shadow-sm rounded-md"
+                                                 style="height:360px">
                                                 <div class="card-body">
-                                                    <img src="https://i.pravatar.cc/500" alt="" height="50%" width="50%"
-                                                         class="img-fluid rounded-circle">
-                                                    <h5 class="card-title py-2">Sri Mutia</h5>
-                                                    <p class="card-text">2022573010009</p>
-                                                    <p class="card-text">Lhokseumawe</p>
-                                                    <p class="card-text">24 Juli 2004</p>
-                                                    <p class="socials">
-                                                        <i class="bi bi-twitter"></i>
-                                                        <i class="bi bi-instagram"></i>
-                                                        <i class="bi bi-facebook"></i>
-                                                        <i class="bi bi-whatsapp"></i>
+                                                    <img src="https://us.123rf.com/450wm/regara/regara2007/regara200700137/153083642-gray-avatar-picture-profil-icon-design-vector.jpg?ver=6"
+                                                         alt="" height="100%" width="100%" class="img-fluid rounded">
+                                                    <p>
+
+                                                        <button class="btn border-0" type="button"
+                                                                data-bs-toggle="collapse" data-bs-target="#26"
+                                                                aria-expanded="false" aria-controls="26">
+                                                            <h6 class="card-t6tle fw-medium py-3">Sri Mutia</h6>
+                                                            <span class="badge text-bg-secondary">Anggota</span>
+                                                        </button>
                                                     </p>
+                                                    <div class="collapse z-3 position-absolute" id="26">
+                                                        <div class="card card-body border-0 shadow-sm">
+                                                            <p class="card-text fs-6 text-muted"> 02022573010009</p>
+                                                            <p class="card-text fs-6 text-muted">Lhokseumawe</p>
+                                                            <p class="socials d-flex justify-content-evenly mt-5">
+                                                                <i class="bi bi-twitter"></i>
+                                                                <i class="bi bi-instagram"></i>
+                                                                <i class="bi bi-facebook"></i>
+                                                                <i class="bi bi-whatsapp"></i>
+                                                            </p>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-12 col-md-6 col-lg-3 mb-4">
-                                            <div class="card text-center" style="height: 320px">
+                                            <div class="card text-center border-0 shadow-sm rounded-md"
+                                                 style="height:360px">
                                                 <div class="card-body">
-                                                    <img src="https://i.pravatar.cc/500" alt="" height="50%" width="50%"
-                                                         class="img-fluid rounded-circle">
-                                                    <h5 class="card-title py-2">Syahira Marani</h5>
-                                                    <p class="card-text">2022573010048</p>
-                                                    <p class="card-text">Lhokseumawe</p>
-                                                    <p class="card-text">08 Juni 2004</p>
-                                                    <p class="socials">
-                                                        <i class="bi bi-twitter"></i>
-                                                        <i class="bi bi-instagram"></i>
-                                                        <i class="bi bi-facebook"></i>
-                                                        <i class="bi bi-whatsapp"></i>
+                                                    <img src="https://us.123rf.com/450wm/regara/regara2007/regara200700137/153083642-gray-avatar-picture-profil-icon-design-vector.jpg?ver=6"
+                                                         alt="" height="100%" width="100%" class="img-fluid rounded">
+                                                    <p>
+
+                                                        <button class="btn border-0" type="button"
+                                                                data-bs-toggle="collapse" data-bs-target="#27"
+                                                                aria-expanded="false" aria-controls="27">
+                                                            <h6 class="card-t6tle fw-medium py-3">Syahira Marani</h6>
+                                                            <span class="badge text-bg-secondary">Anggota</span>
+                                                        </button>
                                                     </p>
+                                                    <div class="collapse z-3 position-absolute" id="27">
+                                                        <div class="card card-body border-0 shadow-sm">
+                                                            <p class="card-text fs-6 text-muted"> 02022573010048</p>
+                                                            <p class="card-text fs-6 text-muted">Lhokseumawe</p>
+                                                            <p class="socials d-flex justify-content-evenly mt-5">
+                                                                <i class="bi bi-twitter"></i>
+                                                                <i class="bi bi-instagram"></i>
+                                                                <i class="bi bi-facebook"></i>
+                                                                <i class="bi bi-whatsapp"></i>
+                                                            </p>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-12 col-md-6 col-lg-3 mb-4">
-                                            <div class="card text-center" style="height: 320px">
+                                            <div class="card text-center border-0 shadow-sm rounded-md"
+                                                 style="height:360px">
                                                 <div class="card-body">
-                                                    <img src="https://i.pravatar.cc/500" alt="" height="50%" width="50%"
-                                                         class="img-fluid rounded-circle">
-                                                    <h5 class="card-title py-2">Tasya Anisa</h5>
-                                                    <p class="card-text">2022573010118</p>
-                                                    <p class="card-text">Lhokseumawe</p>
-                                                    <p class="card-text">04 Oktober 2004</p>
-                                                    <p class="socials">
-                                                        <i class="bi bi-twitter"></i>
-                                                        <i class="bi bi-instagram"></i>
-                                                        <i class="bi bi-facebook"></i>
-                                                        <i class="bi bi-whatsapp"></i>
+                                                    <img src="https://us.123rf.com/450wm/regara/regara2007/regara200700137/153083642-gray-avatar-picture-profil-icon-design-vector.jpg?ver=6"
+                                                         alt="" height="100%" width="100%" class="img-fluid rounded">
+                                                    <p>
+
+                                                        <button class="btn border-0" type="button"
+                                                                data-bs-toggle="collapse" data-bs-target="#28"
+                                                                aria-expanded="false" aria-controls="28">
+                                                            <h6 class="card-t6tle fw-medium py-3">Tasya Anisa</h6>
+                                                            <span class="badge text-bg-secondary">Anggota</span>
+                                                        </button>
                                                     </p>
+                                                    <div class="collapse z-3 position-absolute" id="28">
+                                                        <div class="card card-body border-0 shadow-sm">
+                                                            <p class="card-text fs-6 text-muted"> 02022573010118</p>
+                                                            <p class="card-text fs-6 text-muted">Lhokseumawe</p>
+                                                            <p class="socials d-flex justify-content-evenly mt-5">
+                                                                <i class="bi bi-twitter"></i>
+                                                                <i class="bi bi-instagram"></i>
+                                                                <i class="bi bi-facebook"></i>
+                                                                <i class="bi bi-whatsapp"></i>
+                                                            </p>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -631,20 +927,34 @@
                                     <div class="container">
                                         <div class="row">
                                             <div class="col-12 col-md-6 col-lg-3 mb-4">
-                                                <div class="card text-center" style="height: 320px">
-                                                    <div class="card-body">
-                                                        <img src="https://i.pravatar.cc/500" alt="" height="50%"
-                                                             width="50%" class="img-fluid rounded-circle">
-                                                        <h5 class="card-title py-2">Tri Kumala Sari</h5>
-                                                        <p class="card-text">2022573010052</p>
-                                                        <p class="card-text">Lhokseumawe</p>
-                                                        <p class="card-text">09 November 2003</p>
-                                                        <p class="socials">
-                                                            <i class="bi bi-twitter"></i>
-                                                            <i class="bi bi-instagram"></i>
-                                                            <i class="bi bi-facebook"></i>
-                                                            <i class="bi bi-whatsapp"></i>
+                                                <div class="card text-center border-0 shadow-sm rounded-md"
+                                                     style="height:360px">
+                                                    <div class="card-b42y">
+                                                        <img src="https://us.123rf.com/450wm/regara/regara2007/regara200700137/153083642-gray-avatar-picture-profil-icon-design-vector.jpg?ver=6"
+                                                             alt="" height="100%" width="100%"
+                                                             class="img-fluid rounded">
+                                                        <p>
+
+                                                            <button class="btn border-0" type="button"
+                                                                    data-bs-toggle="collapse" data-bs-target="#29"
+                                                                    aria-expanded="false" aria-controls="29">
+                                                                <h6 class="card-t6tle fw-medium py-3">Tri Kumala Sari
+                                                                </h6>
+                                                                <span class="badge text-bg-secondary">Anggota</span>
+                                                            </button>
                                                         </p>
+                                                        <div class="collapse z-3 position-absolute" id="29">
+                                                            <div class="card card-body border-0 shadow-sm">
+                                                                <p class="card-text fs-6 text-muted"> 02022573010052</p>
+                                                                <p class="card-text fs-6 text-muted">Lhokseumawe</p>
+                                                                <p class="socials d-flex justify-content-evenly mt-5">
+                                                                    <i class="bi bi-twitter"></i>
+                                                                    <i class="bi bi-instagram"></i>
+                                                                    <i class="bi bi-facebook"></i>
+                                                                    <i class="bi bi-whatsapp"></i>
+                                                                </p>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
