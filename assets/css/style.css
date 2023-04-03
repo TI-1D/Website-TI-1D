@@ -52,3 +52,15 @@ body {
     font-size: 28px;
     font-weight: 100 !important;
 }
+
+.bg-violet-100 {
+    background-color: #ede9fe !important;
+}
+
+.bg-violet-600 {
+    background-color: #7c3aed;
+}
+
+.text-violet-600 {
+    color: #7c3aed;
+}
