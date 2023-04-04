@@ -57,10 +57,6 @@ body {
     background-color: #ede9fe !important;
 }
 
-.bg-violet-600 {
-    background-color: #7c3aed;
-}
-
 .text-violet-600 {
     color: #7c3aed;
 }
@@ -78,4 +74,9 @@ body {
     left: 0;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.active {
+    font-weight: bold;
+    color: #7c3aed !important;
 }
