@@ -65,6 +65,18 @@ body {
     bottom: 5;
 }
 
+.card:hover {
+    transform: scale(105%) !important;
+    transition: all !important;
+    transition-duration: 1s !important;
+}
+
+.card img:hover {
+    transform: rotate(2deg) !important;
+    transition: all !important;
+    transition-duration: 0.5s !important;
+}
+
 .card-text {
     font-size: 15px !important;
 }
