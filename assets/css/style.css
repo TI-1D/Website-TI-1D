@@ -65,6 +65,14 @@ body {
     bottom: 5;
 }
 
+.collapse {
+    z-index: 99999 !important;
+}
+
+.card {
+    z-index: -99999 !important;
+}
+
 .card:hover {
     transform: scale(105%) !important;
     transition: all !important;
